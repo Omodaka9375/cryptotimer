@@ -112,6 +112,12 @@ header {
     font-size: 14px;
     line-height: 24px;
     color: #000;
+    transition: .3s;
+}
+
+.header-cta:hover {
+    background: #94ffd6;
+    transition: .3s;
 }
 
 @media (min-width: 531px) and (max-width: 1024px) {
@@ -127,6 +133,7 @@ header {
 @media screen and (max-width: 530px) {
     header {
         padding: 0 30px;
+        height: 100px;
     }
 
     .header-cta {
@@ -226,7 +233,7 @@ header {
 
 @media screen and (max-width: 530px) {
     .hero {
-        padding: 132px 0 0;
+        padding: 100px 0 0;
     }
 
     .hero-wrapper {
@@ -250,6 +257,20 @@ header {
     .hero-chainlink-logo {
         margin-left: 0;
         margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cryptotimer-logo {
+        width: 32px;
+        height: 32px;
+        background: url('../images/cryptotimer-mobile-logo.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .header-cta {
+        padding: 10px 22px;
     }
 }
 
@@ -303,6 +324,13 @@ header {
     font-size: 14px;
     line-height: 21px;
     color: #0E0E2C;
+    transition: .3s;
+}
+
+.transparent-btn:hover {
+    background: #1B2D45;
+    color: #fff;
+    transition: .3s;
 }
 
 @media screen and (max-width: 530px) {
@@ -329,6 +357,12 @@ header {
 
     .transparent-buttons > a:last-child {
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .what-is-cta {
+        padding: 13px 15px;
     }
 }
 
@@ -458,6 +492,24 @@ header {
     background-repeat: no-repeat;
 }
 
+@media (min-width: 1350px) and (max-width: 1470px) {
+    .use-cases-section {
+        padding-right: 30px;
+    }
+}
+
+@media (min-width: 1170px) and (max-width: 1349px) {
+    .use-cases-section {
+        padding-right: 330px; 
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .use-cases-section {
+        padding: 70px 30px 30px;
+    }
+}
+
 /* Chainlink */
 .chainlink {
     background: url('../images/chainlink-background.png');
@@ -538,6 +590,10 @@ header {
     color: #FFFFFF;
 }
 
+.contact-us-content > h4 > a {
+    color: #fff;
+}
+
 .contact-us-buttons-wrapper {
     margin-top: 40px;
     display: flex;
@@ -553,6 +609,12 @@ header {
     font-size: 14px;
     line-height: 21px;
     color: #10159C;
+    transition: .3s;
+}
+
+.join-our-community-cta:hover {
+    transform: scale(1.05);
+    transition: .3s;
 }
 
 .discord-icon {
@@ -580,6 +642,12 @@ header {
     color: #FFFFFF;
     display: flex;
     align-items: center;
+    transition: .3s;
+}
+
+.contact-us-cta:hover {
+    transform: scale(1.05);
+    transition: .3s;
 }
 
 .envelope-icon {
